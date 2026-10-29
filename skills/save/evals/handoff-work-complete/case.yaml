@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: handoff-work-complete
+expected_outcome: |
+  引き継ぐ作業がないと判断し、引き継ぎメモは書かずに作業終了時の片付けをする:
+  テストを確かめ、残りの変更をコミットし、feat/export を main にマージしてプッシュし、
+  worktree とブランチを片付け、作業記録を書き、古い引き継ぎメモをアーカイブへ移し、
+  作業の完了と /handoff:resume が不要なことを伝える。
+context:
+  scaffold_script: place-files.sh

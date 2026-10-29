@@ -1,0 +1,14 @@
+{
+  "name": "handoff",
+  "description": "handoff: Claude Code skills to hand work over to a fresh session",
+  "owner": {
+    "name": "arcfjmt"
+  },
+  "plugins": [
+    {
+      "name": "handoff",
+      "source": "./",
+      "description": "Pause work at a clean stopping point and pick it up in a fresh Claude Code session, or wrap it up when nothing is left"
+    }
+  ]
+}

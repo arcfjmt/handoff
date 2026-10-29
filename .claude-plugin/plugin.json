@@ -1,0 +1,10 @@
+{
+  "name": "handoff",
+  "version": "0.1.0",
+  "description": "Pause work at a clean stopping point and pick it up in a fresh Claude Code session, or wrap it up when nothing is left",
+  "license": "MIT",
+  "author": {
+    "name": "arcfjmt",
+    "url": "https://github.com/arcfjmt"
+  }
+}

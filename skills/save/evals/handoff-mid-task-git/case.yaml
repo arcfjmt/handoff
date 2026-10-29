@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: handoff-mid-task-git
+expected_outcome: |
+  未コミットの変更（main と worktree の両方）がコミットされ、作業記録が規則どおり書かれ、
+  永続的な好みだけがメモリに入り、会話にしかない決定・却下案・保留中の判断を含む引き継ぎメモが
+  git 管理外の .handoff/HANDOFF.md に残り、再開方法が案内される。
+context:
+  scaffold_script: place-files.sh

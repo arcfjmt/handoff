@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: resume-with-drift
+expected_outcome: |
+  引き継ぎメモを読み、メモ作成後に別の人が tasklog/cli.py を作ったコミットに気づいて報告し、
+  次の作業と保留中の判断を示して、ユーザーの確認を求めて止まる。ファイルは変更しない。
+context:
+  scaffold_script: place-files.sh

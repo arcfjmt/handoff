@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: handoff-reload-non-git
+expected_outcome: |
+  git 管理外のフォルダなので git 操作はせず、企画で決まったことと保留中の判断を含む引き継ぎメモを
+  .handoff/HANDOFF.md に残し、プラグインを読み込むために Claude Code の再起動を案内する。
+context:
+  scaffold_script: place-files.sh
