@@ -36,12 +36,13 @@ Both skills also trigger from plain requests such as "the context is getting ful
 
 ## Install
 
-From a local clone:
+At the prompt of a Claude Code terminal session:
 
 ```
-/plugin marketplace add /path/to/handoff
-/plugin install handoff@handoff
+/plugin install handoff --marketplace arcfjmt/handoff
 ```
+
+Answer `y` to add the marketplace, then pick a scope (user scope makes the skills available in every session).
 
 ## Develop
 
